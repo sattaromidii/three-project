@@ -1,0 +1,66 @@
+@media (min-width: 576px) {
+
+    .search-top-menu{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 70px;
+        background-color: #FF4A52 ;
+        width: 60px;
+    }
+    .bars-top-menu{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0px;
+        background-color: #1EC6B6;
+        width: 70px;
+    }
+    .search-top-menu
+    {
+      color: white!important;
+    }
+    .bars-top-menu{
+        color: black!important;
+    }
+}
+
+
+@media (min-width: 768px) {}
+
+
+@media (min-width: 992px) {
+
+    .top-menu li{
+        display: inline-block;
+        margin-right: 35px;
+        transition: transform 0.2s ease;
+    }
+
+    .top-menu li:hover{
+        transform: translate(0,-2px);
+    }
+
+    .bars-top-menu{
+        display: none;
+    }
+    .search-top-menu{
+     
+        width:80px;
+    }
+    .form-search{
+        flex-direction:row;
+    }
+    
+    .search-items{
+        flex-direction:row;
+    }
+}
+
+
+@media (min-width: 1200px) {}
+
+@font-face{
+    font-family:NothingYouCouldDo-Regular;
+    src: url(../fonts/NothingYouCouldDo-Regular.ttf);
+}
